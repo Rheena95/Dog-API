@@ -9,15 +9,15 @@
     <title>Thinkful Dog API</title>
 </head>
 <body>
-    
     <header>
         <h1>Dog Fetch API</h1>
     </header>
     <main>
-        <form>
-            <input type="number" name="dog-input" id="dog-input" value="3" min="1" max="50" required>
-            <input type="submit" value="Get Dog Pics!">
+        <form id="dogInput">
+            <input type="number" id="dog-img" value="3" min="1" max="50" required>
+            <button type="submit" class="button">Get Dog Pics!</button>     
         </form>
+        
         <section class="search-results">
             <div class="js-search-results"></div>
         </section>
